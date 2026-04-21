@@ -33,14 +33,11 @@ An AI-powered system that allows users to upload documents and ask intelligent q
 - SpeechRecognition
 - Web Speech API
 🟣 4. 🎥 Demo (VERY IMPORTANT)
-## 🎥 Demo
 
-[Watch Demo Video]
+## 🎥 Demo [Watch Demo Video]
 
-👉 Add:
-
-YouTube OR Google Drive link
 🟣 5. 🏗️ Project Structure
+
 ## 🏗️ Project Structure
 ```
 AI-Intelligent-Document-Qns-Ans/
