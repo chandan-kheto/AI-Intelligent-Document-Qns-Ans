@@ -1,0 +1,14 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+mvenv/
+
+# Node
+node_modules/
+
+# Vector DB
+vector_store/
+
