@@ -11,7 +11,6 @@ An AI-powered system that allows users to upload documents and ask intelligent q
 - 🤖 RAG-based question answering
 - 🔍 Semantic search using FAISS
 - 🎤 Voice input (Speech-to-Text)
-- 🔊 Voice output (Text-to-Speech)
 - ⚡ FastAPI backend + React frontend
 
 👉 Keep it simple + impactful
