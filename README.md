@@ -42,7 +42,7 @@ An AI-powered system that allows users to upload documents and ask intelligent q
 YouTube OR Google Drive link
 🟣 5. 🏗️ Project Structure
 ## 🏗️ Project Structure
-
+``
 AI-Intelligent-Document-Qns-Ans/
 │
 ├── backend/
@@ -58,6 +58,7 @@ AI-Intelligent-Document-Qns-Ans/
 │
 ├── requirements.txt
 └── README.md
+``
 🟣 6. ⚙️ Installation & Setup
 ## ⚙️ Installation & Setup
 
