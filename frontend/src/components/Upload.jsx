@@ -1,4 +1,5 @@
 
+
 import React, { useState } from "react";
 import { uploadDocument } from "../api";
 
@@ -20,18 +21,18 @@ function Upload({ setDocumentReady }) {
   };
 
   return (
-    <div className="mb-8 flex items-center justify-between">
-      <h2 className="text-white font-semibold mb-5">📄 Upload Document</h2>
+    <div className="flex items-center justify-between">
+      <h2 className="text-white font-semibold text-sm mb-6">📄 Upload Document</h2>
 
       <input
         type="file"
         onChange={(e) => setFile(e.target.files[0])}
-        className="mb-8 text-gray-200"
+        className="mb-6 text-gray-200"
       />
 
        <button
         onClick={handleUpload}
-        className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+        className="bg-blue-600 px-4 py-2 mb-6 text-xs rounded-lg hover:bg-blue-700 transition"
       >
         Upload
       </button>
