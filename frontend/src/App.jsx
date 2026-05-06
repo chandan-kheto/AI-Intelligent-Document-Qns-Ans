@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import Upload from "./components/Upload";
 import Chat from "./components/Chat";
@@ -6,7 +7,7 @@ function App() {
   const [documentReady, setDocumentReady] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-indigo-900 to-black flex justify-center items-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-indigo-900 to-black flex justify-center pt-12">
 
       {/* Glow effects */}
       <div className="absolute w-[500px] h-[500px] bg-purple-600 opacity-30 blur-3xl rounded-full top-0 left-10"></div>
@@ -14,11 +15,11 @@ function App() {
 
       <div className="relative w-full max-w-5xl bg-gray-800/70 backdrop-blur-lg p-10 rounded-2xl shadow-2xl border border-gray-700">
 
-        <h1 className="text-3xl font-extrabold text-center mb-6 bg-gradient-to-r from-pink-400 via-purple-300 to-blue-400 bg-clip-text text-transparent drop-shadow-xl">
+        <h1 className="text-2xl font-extrabold text-center mb-2 bg-gradient-to-r from-pink-400 via-purple-300 to-blue-400 bg-clip-text text-transparent drop-shadow-xl">
           🧠 AI Document Intelligence (RAG)
         </h1>
 
-        <p className="text-center text-gray-200 mb-25 text-m">
+        <p className="text-center text-gray-200 mb-10 text-xs">
           Upload documents and ask intelligent questions using LLM + RAG
          </p>
 
