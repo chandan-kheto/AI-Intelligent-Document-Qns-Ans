@@ -11,6 +11,8 @@ def load_llm():
         tokenizer=config.LLM_MODEL,
         max_new_tokens=config.MAX_NEW_TOKENS,
         temperature=0.3,   # Add this
+        do_sample=True,
+        top_k=20,
         device=-1   # CPU mode
     )
     print("🤖 Loading LLM model...")
