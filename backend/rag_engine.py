@@ -38,19 +38,20 @@ class RAGEngine:
 
         Use ONLY the information from the provided context to answer the question.
 
-        Guidelines:
-        - Be clear and concise.
-        - If the answer is not found in the context, say:
-          "The document does not contain this information."
-        - Do NOT hallucinate.
-        - Do NOT use external knowledge.
+       Rules:
+        - Give a short and clean answer.
+        - Mention important skills, projects, and experience if   available.
+        - Keep answer within 3 to 5 sentences.
+        - Do not repeat unnecessary details.
+        - If answer is not found, say:
+        "The document does not contain this information."
 
         Context: {context}
 
         Question: {question}
 
         Detailed Answer:
-        ."""
+        """
         return PromptTemplate(
             template=prompt_template,
             input_variables=["context", "question"]
