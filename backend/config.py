@@ -7,7 +7,7 @@ LLM_MODEL = "google/flan-t5-small"
 # ===== TEXT SPLITTING =====
 
 CHUNK_SIZE = 800
-CHUNK_OVERLAP = 100
+CHUNK_OVERLAP = 200
 
 # ===== RETRIEVAL =====
 
